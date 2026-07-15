@@ -1,31 +1,19 @@
-![GIS](https://img.shields.io/badge/GIS-ArcGIS-blue) ![GovTech](https://img.shields.io/badge/Sector-GovTech-green) ![AI](https://img.shields.io/badge/AI-Assisted%20Discovery-purple) ![Product Management](https://img.shields.io/badge/Role-Product%20Management-orange)
+# Tyler Wick
 
-Product manager building geospatial and AI capabilities for government platforms. I work at the intersection of location intelligence, emerging AI, and civic technology.
+Senior Product Manager focused on digital banking, regulated product workflows, platform evaluation, and AI-assisted product operations.
 
-Currently building GIS and AI capabilities into government platforms at Accela.
+Portfolio: https://tylerwilliamwick.github.io/tylerwilliamwick/
 
-Portfolio: [pm-portfolio-woad-seven.vercel.app](https://pm-portfolio-woad-seven.vercel.app)
+## Focus
 
----
-
-## Case Studies
-
-- [Rapid Damage Assessment](https://pm-portfolio-woad-seven.vercel.app/case-studies/rapid-damage-assessment): AI-powered field triage tool that cuts damage survey time from days to hours after natural disasters.
-- [GeoAI Strategic Assessment](https://pm-portfolio-woad-seven.vercel.app/case-studies/geoai-strategic-assessment): Market and capability analysis that defined the GIS AI roadmap for a government SaaS platform.
-
----
-
-## Pinned Repos
-
-**[toolstream](https://github.com/tylerwilliamwick/toolstream)**: Semantic routing proxy that cuts AI tool overhead by surfacing only relevant capabilities per task.
-
-**[pm-claude-kit](https://github.com/tylerwilliamwick/pm-claude-kit)**: PM workflow toolkit for structured product decisions and stakeholder communication.
-
-**[claude-code-masterclass](https://github.com/tylerwilliamwick/claude-code-masterclass)**: Practical patterns for AI-assisted product development in enterprise settings.
-
----
+- Digital product roadmapping and prioritization
+- RFP support, vendor evaluation, and executive readouts
+- Customer and member workflow modernization
+- API integration, migration, lifecycle, and risk-aware delivery
+- AI-assisted product operations, competitive analysis, and documentation automation
 
 ## Connect
 
 - Email: [tylerwilliamwick@gmail.com](mailto:tylerwilliamwick@gmail.com)
 - LinkedIn: [linkedin.com/in/tylerwilliamwick](https://linkedin.com/in/tylerwilliamwick)
+- GitHub: [github.com/tylerwilliamwick](https://github.com/tylerwilliamwick)

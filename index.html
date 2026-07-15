@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tyler Wick | Senior Product Manager | Digital Banking & Product Ops</title>
+    <meta
+      name="description"
+      content="Senior product manager for digital banking, platform evaluation, regulated workflows, RFP support, and AI-assisted product operations."
+    >
+    <meta property="og:title" content="Tyler Wick | Senior Product Manager">
+    <meta property="og:description" content="Digital product leader for regulated workflows, platform evaluation, RFP support, and AI-assisted product operations.">
+    <meta property="og:image" content="public/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tyler Wick | Senior Product Manager">
+    <meta name="twitter:description" content="Digital product leader for regulated workflows, platform evaluation, RFP support, and AI-assisted product operations.">
+    <meta name="twitter:image" content="public/og-image.png">
+    <meta name="theme-color" content="#047d75">
+    <style>
+      :root {
+        --bg: #f6f8f5;
+        --bg-alt: #e9f0ec;
+        --surface: #ffffff;
+        --text: #16201d;
+        --muted: #62716b;
+        --accent: #047d75;
+        --accent-strong: #075e59;
+        --copper: #b25c20;
+        --border: #d8e1dc;
+        --border-light: #edf2ef;
+        --grid: #e3ebe7;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #101816;
+          --bg-alt: #17221f;
+          --surface: #1b2925;
+          --text: #f3f7f3;
+          --muted: #9fb0a9;
+          --accent: #5ccec1;
+          --accent-strong: #8de3d8;
+          --copper: #f2a766;
+          --border: #2a3a35;
+          --border-light: #21302c;
+          --grid: #1f302b;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+        letter-spacing: 0 !important;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background:
+          linear-gradient(90deg, var(--grid) 1px, transparent 1px),
+          linear-gradient(0deg, var(--grid) 1px, transparent 1px),
+          var(--bg);
+        background-size: 72px 72px;
+        color: var(--text);
+        font: 16px/1.6 Avenir, "Avenir Next", Inter, system-ui, -apple-system, sans-serif;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      .wrap {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      .nav {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        border-bottom: 1px solid var(--border);
+        background: color-mix(in srgb, var(--bg) 88%, transparent);
+        backdrop-filter: blur(14px);
+      }
+
+      .nav-inner {
+        min-height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      .mark {
+        width: 38px;
+        height: 38px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        display: grid;
+        place-items: center;
+        color: var(--accent);
+        font-family: Georgia, serif;
+        font-size: 15px;
+        text-decoration: none;
+        background: var(--surface);
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 14px 22px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .links a {
+        text-decoration: none;
+      }
+
+      .links a:hover {
+        color: var(--accent);
+      }
+
+      .hero {
+        padding: 64px 0 36px;
+      }
+
+      .eyebrow {
+        margin: 0 0 20px;
+        color: var(--copper);
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-weight: 400;
+        line-height: 1.08;
+      }
+
+      h1 {
+        max-width: 840px;
+        margin: 0;
+        font-size: clamp(52px, 9vw, 108px);
+      }
+
+      .hero-copy {
+        max-width: 760px;
+        margin: 28px 0 0;
+        color: color-mix(in srgb, var(--text) 78%, var(--muted));
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(24px, 3.4vw, 40px);
+        font-style: italic;
+        line-height: 1.28;
+      }
+
+      .cta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 34px;
+      }
+
+      .btn {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 10px 14px;
+        background: var(--surface);
+        color: var(--text);
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      .btn.primary {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #ffffff;
+      }
+
+      .btn:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
+      .btn.primary:hover {
+        background: var(--accent-strong);
+        color: #ffffff;
+      }
+
+      .visual {
+        margin-top: 32px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--surface);
+      }
+
+      section {
+        padding: 54px 0;
+      }
+
+      .band {
+        background: color-mix(in srgb, var(--bg-alt) 74%, transparent);
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
+
+      .section-head {
+        display: grid;
+        grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+        gap: 28px;
+        align-items: end;
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: clamp(32px, 4vw, 48px);
+      }
+
+      .section-head p,
+      .lead {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .metrics {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .metric,
+      .card,
+      .role {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: var(--surface);
+      }
+
+      .metric {
+        padding: 22px;
+      }
+
+      .metric strong {
+        display: block;
+        color: var(--accent);
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(32px, 4vw, 48px);
+        line-height: 1;
+        font-weight: 400;
+      }
+
+      .metric span {
+        display: block;
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 13px;
+        text-transform: uppercase;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .card {
+        padding: 22px;
+      }
+
+      .tagline {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-bottom: 16px;
+      }
+
+      .tagline span {
+        border-radius: 6px;
+        background: var(--bg-alt);
+        color: var(--muted);
+        font-size: 12px;
+        padding: 3px 8px;
+      }
+
+      .card h3 {
+        margin: 0 0 10px;
+        font-size: 24px;
+      }
+
+      .card p,
+      .role p,
+      li {
+        color: var(--muted);
+      }
+
+      .card p {
+        margin: 0;
+      }
+
+      .skill-list {
+        margin: 14px 0 0;
+        padding-left: 18px;
+      }
+
+      .systems {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .role {
+        padding: 24px;
+        margin-top: 16px;
+      }
+
+      .role h3 {
+        margin: 0;
+        font-size: 28px;
+      }
+
+      .role .meta {
+        color: var(--copper);
+        margin: 4px 0 16px;
+        font-size: 14px;
+      }
+
+      .two-col {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 18px;
+      }
+
+      .contact {
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+        gap: 28px;
+        align-items: center;
+      }
+
+      footer {
+        border-top: 1px solid var(--border);
+        padding: 26px 0;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      @media (max-width: 860px) {
+        .section-head,
+        .contact,
+        .two-col {
+          grid-template-columns: 1fr;
+        }
+
+        .metrics,
+        .grid,
+        .systems {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 560px) {
+        .wrap {
+          width: min(100% - 28px, 1120px);
+        }
+
+        .hero {
+          padding-top: 58px;
+        }
+
+        .links {
+          gap: 10px 14px;
+          font-size: 13px;
+        }
+
+        .metrics,
+        .grid,
+        .systems {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav" aria-label="Primary">
+      <div class="wrap nav-inner">
+        <a class="mark" href="#top" aria-label="Tyler Wick home">TW</a>
+        <div class="links">
+          <a href="#proof">Proof</a>
+          <a href="#evidence">Evidence</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="top">
+      <header class="hero">
+        <div class="wrap">
+          <p class="eyebrow">Senior Product Manager | Digital Banking | Platform Evaluation | AI Product Ops</p>
+          <h1>Tyler Wick</h1>
+          <p class="hero-copy">
+            I turn regulated customer and member workflows into product roadmaps
+            engineering teams can ship.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="#evidence">Evidence</a>
+            <a class="btn" href="public/resume.pdf">Resume PDF</a>
+            <a class="btn" href="mailto:tylerwilliamwick@gmail.com">Email</a>
+            <a class="btn" href="https://www.linkedin.com/in/tylerwilliamwick/">LinkedIn</a>
+            <a class="btn" href="https://github.com/tylerwilliamwick">GitHub</a>
+          </div>
+          <figure class="visual" aria-label="Portfolio systems map">
+            <img
+              src="public/portfolio-systems.png"
+              alt="Tyler Wick portfolio systems map with product metrics"
+              width="1200"
+              height="630"
+            >
+          </figure>
+        </div>
+      </header>
+
+      <section id="proof" class="band" aria-labelledby="proof-title">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 id="proof-title">Proof Points</h2>
+            <p>
+              Short version for hiring teams: product strategy, RFP/vendor evaluation,
+              regulated delivery, customer/member feedback, and AI-assisted PM operations.
+            </p>
+          </div>
+          <div class="metrics">
+            <div class="metric"><strong>20+</strong><span>RFP and agency evaluation cycles supported</span></div>
+            <div class="metric"><strong>97%</strong><span>Customer API migration conversion</span></div>
+            <div class="metric"><strong>$2.17M</strong><span>ARR retained through EOL program</span></div>
+            <div class="metric"><strong>50%</strong><span>Implementation time and cost reduction</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="evidence" aria-labelledby="evidence-title">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 id="evidence-title">Selected Evidence</h2>
+            <p>
+              The most relevant pieces from the BECU-focused resume, condensed
+              into the proof employers are likely to scan first.
+            </p>
+          </div>
+          <div class="grid">
+            <article class="card">
+              <div class="tagline"><span>Roadmap</span><span>RFP</span><span>Executive Readouts</span></div>
+              <h3>Platform Strategy</h3>
+              <p>
+                Owned roadmap and Agile planning across 4 teams, supported about
+                20 RFP/evaluation cycles, shaped roughly 5 customer wins, and
+                delivered monthly CEO/C-suite roadmap readouts for about a year.
+              </p>
+            </article>
+            <article class="card">
+              <div class="tagline"><span>Migration</span><span>ARR</span><span>Security</span></div>
+              <h3>Regulated Delivery</h3>
+              <p>
+                Led lifecycle and customer migration work that retained 121
+                customers and $2.17M ARR, reached 97% API migration conversion,
+                and partnered with security on accessibility and pen-test-style reviews.
+              </p>
+            </article>
+            <article class="card">
+              <div class="tagline"><span>Payments</span><span>Onboarding</span><span>Retention</span></div>
+              <h3>Customer &amp; Member Experience</h3>
+              <p>
+                Brought payment software experience from Poynt: pre-sales through
+                post-implementation support, 50+ customer onboardings, 150% quota,
+                and a retention program that improved retention by 30%.
+              </p>
+            </article>
+            <article class="card">
+              <div class="tagline"><span>AI Ops</span><span>QA</span><span>Competitive Intel</span></div>
+              <h3>AI-Assisted Product Ops</h3>
+              <p>
+                Used Claude Code, Codex, and agent workflows for competitive
+                analysis across 23 vendors, requirements drafting, QA/security
+                review, GeoAI assessment, and delivery planning automation.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="band" aria-labelledby="skills-title">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 id="skills-title">Skills &amp; Tools</h2>
+            <p>
+              Focused on the capabilities most relevant to senior digital
+              product roles in banking, fintech, and regulated platforms.
+            </p>
+          </div>
+          <div class="grid">
+            <article class="card">
+              <h3>Product &amp; Banking Fit</h3>
+              <ul class="skill-list">
+                <li>Digital roadmapping and prioritization</li>
+                <li>RFP support and vendor/product evaluation</li>
+                <li>Customer/member feedback synthesis</li>
+                <li>API integration and workflow automation</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Delivery &amp; Risk</h3>
+              <ul class="skill-list">
+                <li>Agile delivery across cross-functional teams</li>
+                <li>Security, accessibility, and QA review</li>
+                <li>Lifecycle, migration, and customer communications</li>
+                <li>Executive roadmap and status readouts</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>AI Product Ops</h3>
+              <ul class="skill-list">
+                <li>Claude Code and OpenAI Codex</li>
+                <li>Agent workflow design and multi-agent tasking</li>
+                <li>Competitive analysis and requirements drafting</li>
+                <li>Documentation and delivery planning automation</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-title">
+        <div class="wrap contact">
+          <div>
+            <h2 id="contact-title">Get In Touch</h2>
+            <p class="lead">
+              Open to senior product roles in digital banking, fintech,
+              platform integration, and regulated workflow modernization.
+            </p>
+          </div>
+          <div class="cta-row">
+            <a class="btn primary" href="mailto:tylerwilliamwick@gmail.com">tylerwilliamwick@gmail.com</a>
+            <a class="btn" href="public/resume.pdf">Resume PDF</a>
+            <a class="btn" href="https://www.linkedin.com/in/tylerwilliamwick/">LinkedIn</a>
+            <a class="btn" href="https://github.com/tylerwilliamwick">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">&copy; 2026 Tyler Wick</div>
+    </footer>
+  </body>
+</html>
