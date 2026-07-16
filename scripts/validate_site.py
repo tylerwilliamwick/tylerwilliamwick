@@ -36,6 +36,7 @@ class SiteParser(HTMLParser):
         self.current_capability = None
         self.in_capability_heading = False
         self.in_capability_copy = False
+        self.in_style = False
         self.scripts = 0
         self.text = []
 
@@ -44,6 +45,11 @@ class SiteParser(HTMLParser):
         classes = set(attrs.get("class", "").split())
         element_id = attrs.get("id")
 
+        if tag == "style":
+            self.in_style = True
+        for name in ("alt", "aria-label"):
+            if attrs.get(name):
+                self.text.append(attrs[name])
         if element_id:
             self.ids.add(element_id)
         if tag == "section":
@@ -90,6 +96,8 @@ class SiteParser(HTMLParser):
                 if "metric-link" in classes:
                     self.metric_links.append(href)
         if tag == "meta":
+            if attrs.get("content"):
+                self.text.append(attrs["content"])
             key = attrs.get("property") or attrs.get("name")
             if key and attrs.get("content"):
                 self.meta[key] = attrs["content"]
@@ -103,7 +111,9 @@ class SiteParser(HTMLParser):
             self.images.append(attrs)
 
     def handle_endtag(self, tag):
-        if tag == "header":
+        if tag == "style":
+            self.in_style = False
+        elif tag == "header":
             self.in_hero = False
         elif tag == "ul" and self.in_metrics:
             self.in_metrics = False
@@ -126,7 +136,8 @@ class SiteParser(HTMLParser):
 
     def handle_data(self, data):
         if data.strip():
-            self.text.append(data.strip())
+            if not self.in_style:
+                self.text.append(data.strip())
             if self.in_metric_value:
                 self.metric_values.append(data.strip())
             if self.current_case and self.in_case_label:
