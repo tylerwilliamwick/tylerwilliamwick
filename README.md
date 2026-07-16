@@ -1,16 +1,16 @@
 # Tyler Wick
 
-Senior Product Manager focused on digital banking, regulated product workflows, platform evaluation, and AI-assisted product operations.
+Senior Product Manager focused on civic platforms, GIS, AI-assisted product discovery, platform modernization, and customer transitions.
 
 Portfolio: https://tylerwilliamwick.github.io/tylerwilliamwick/
 
 ## Focus
 
-- Digital product roadmapping and prioritization
-- RFP support, vendor evaluation, and executive readouts
-- Customer and member workflow modernization
-- API integration, migration, lifecycle, and risk-aware delivery
-- AI-assisted product operations, competitive analysis, and documentation automation
+- GIS-enabled platform strategy and roadmapping
+- AI-assisted discovery and 0-to-1 product launches
+- Platform compatibility, API integration, and workflow automation
+- Customer migration, lifecycle, onboarding, and revenue retention
+- Go-to-market strategy and cross-functional delivery
 
 ## Connect
 
