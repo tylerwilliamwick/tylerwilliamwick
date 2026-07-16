@@ -104,6 +104,10 @@ assert parser.skip_links[0][1:] in parser.ids
 
 case_ids = ["case-arcgis", "case-damage-assessment", "case-crm-eol"]
 assert parser.case_ids == case_ids
+assert re.search(
+    r"\.case-study\[id\]\s*\{[^}]*scroll-margin-top:\s*84px",
+    html,
+), "case anchors lack scroll margin"
 assert parser.metric_links == [f"#{case_id}" for case_id in case_ids]
 for case_id in case_ids:
     assert parser.case_labels[case_id] == [
