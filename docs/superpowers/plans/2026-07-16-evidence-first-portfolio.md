@@ -825,7 +825,7 @@ Replace everything from `<body>` through `</body>` with:
               <dl class="case-details">
                 <div>
                   <dt>Context</dt>
-                  <dd>Retiring a legacy CRM application put customer continuity and recurring revenue at risk.</dd>
+                  <dd>Accela was retiring a legacy CRM application through an end-of-life program.</dd>
                 </div>
                 <div>
                   <dt>My role</dt>
@@ -865,7 +865,7 @@ Replace everything from `<body>` through `</body>` with:
             </li>
             <li class="capability">
               <h3>Platform Delivery</h3>
-              <p>API integration, workflow automation, Agile delivery, stakeholder communication, customer onboarding, and revenue retention.</p>
+              <p>API integration, workflow automation, Agile delivery, stakeholder communication, executive communication, customer onboarding, and revenue retention.</p>
             </li>
           </ul>
         </div>
@@ -917,7 +917,7 @@ Portfolio: https://tylerwilliamwick.github.io/tylerwilliamwick/
 ## Focus
 
 - GIS-enabled platform strategy and roadmapping
-- AI-assisted discovery and 0-to-1 product launches
+- AI-assisted discovery and a 0-to-1 product launch
 - Platform compatibility, API integration, and workflow automation
 - Customer migration, lifecycle, onboarding, and revenue retention
 - Go-to-market strategy and cross-functional delivery
@@ -1054,3 +1054,7 @@ Commit:
 git add README.md index.html public/favicon.svg public/og-image.png scripts/validate_site.py
 git commit -m "feat: make portfolio evidence-first"
 ```
+
+## Post-review addendum
+
+The final review hardened `scripts/validate_site.py` to preserve approved copy, metric values and order, case outcomes, local fragment targets, labelled semantic sections, the semantic metric list, script-free markup, and evidence-first public positioning.

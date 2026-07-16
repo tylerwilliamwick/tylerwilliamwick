@@ -62,7 +62,7 @@ Use exactly three compact, non-clickable case articles. Each contains the visibl
    - Decision: shape a spatial-first emergency-response product.
    - Outcome: a successful 0-to-1 launch and early customer onboarding.
 3. **Legacy CRM end-of-life**
-   - Context: retiring the legacy CRM put customer continuity and recurring revenue at risk.
+   - Context: Accela was retiring a legacy CRM application through an end-of-life program.
    - My role: headed the program and secured executive and board approval.
    - Decision: execute the transition through about 15 features across 12 epics, 100+ defect fixes, and management of about 50 customer incidents.
    - Outcome: 121 customers and $2.17M ARR retained.
