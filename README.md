@@ -1,19 +1,18 @@
 # Tyler Wick
 
-Senior Product Manager focused on digital banking, regulated product workflows, platform evaluation, and AI-assisted product operations.
+Product manager for enterprise GovTech SaaS: 311/service-request management, GIS/ArcGIS integrations, configurable civic platforms, and AI-assisted product operations.
 
-Portfolio: https://tylerwilliamwick.github.io/tylerwilliamwick/
+More than five years in Accela's product organization, progressing from project management into associate product management and product management.
 
 ## Focus
 
-- Digital product roadmapping and prioritization
-- RFP support, vendor evaluation, and executive readouts
-- Customer and member workflow modernization
-- API integration, migration, lifecycle, and risk-aware delivery
-- AI-assisted product operations, competitive analysis, and documentation automation
+- Complex public-sector and enterprise workflow products
+- GIS/ArcGIS integration compatibility and upgrade planning
+- Product lifecycle, EOL, and customer migration programs
+- Customer discovery and executive communication
+- AI-assisted product operations (Claude Code, Codex) with human review built in
 
 ## Connect
 
 - Email: [tylerwilliamwick@gmail.com](mailto:tylerwilliamwick@gmail.com)
 - LinkedIn: [linkedin.com/in/tylerwilliamwick](https://linkedin.com/in/tylerwilliamwick)
-- GitHub: [github.com/tylerwilliamwick](https://github.com/tylerwilliamwick)
