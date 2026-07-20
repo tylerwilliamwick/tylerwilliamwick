@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://pm-portfolio-woad-seven.vercel.app/sitemap.xml
