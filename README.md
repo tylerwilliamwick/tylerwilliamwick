@@ -12,6 +12,10 @@ More than five years in Accela's product organization, progressing from project 
 - Customer discovery and executive communication
 - AI-assisted product operations (Claude Code, Codex) with human review built in
 
+## Selected work
+
+- Portfolio: [tylerwilliamwick.github.io/tylerwilliamwick](https://tylerwilliamwick.github.io/tylerwilliamwick/) — seven case studies in GovTech product work: GIS integration programs, field discovery, lifecycle migrations, and AI capability assessment.
+
 ## Connect
 
 - Email: [tylerwilliamwick@gmail.com](mailto:tylerwilliamwick@gmail.com)
