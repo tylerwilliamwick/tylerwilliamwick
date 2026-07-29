@@ -1,4 +1,0 @@
-User-Agent: *
-Allow: /
-
-Sitemap: https://tylerwilliamwick.github.io/tylerwilliamwick/sitemap.xml

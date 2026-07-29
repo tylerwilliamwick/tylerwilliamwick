@@ -1,2 +1,0 @@
-:HL["/tylerwilliamwick/_next/static/chunks/13ek3gzort_wi.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"case-studies","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"publicstuff-lifecycle","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"yxo6GjktAirWjT1OSWVo5"}
