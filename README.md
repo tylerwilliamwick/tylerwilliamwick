@@ -14,8 +14,8 @@ More than five years in Accela's product organization, progressing from project 
 
 ## Selected work
 
-- Portfolio refresh is staged in a local portfolio source and stays unpublished here until production matches its eight evidence-bounded case studies.
-- AI product POV route is staged in the local portfolio source and stays unpublished here until production deployment is verified.
+- Portfolio: [tylerwilliamwick.com](https://tylerwilliamwick.com/) — eight evidence-bounded case studies in GovTech product work: GIS integration programs, field discovery, lifecycle migrations, API coordination, and AI capability assessment.
+- AI product POV: [Read before you write](https://tylerwilliamwick.com/thinking/read-before-write/), a practical approach to source evidence, explicit uncertainty, and human accountability.
 
 ## Connect
 
