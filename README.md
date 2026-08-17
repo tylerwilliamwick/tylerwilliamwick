@@ -14,7 +14,8 @@ More than five years in Accela's product organization, progressing from project 
 
 ## Selected work
 
-- Portfolio: [tylerwilliamwick.github.io/tylerwilliamwick](https://tylerwilliamwick.github.io/tylerwilliamwick/) — seven case studies in GovTech product work: GIS integration programs, field discovery, lifecycle migrations, and AI capability assessment.
+- Portfolio: [tylerwilliamwick.com](https://tylerwilliamwick.com/) — eight evidence-bounded case studies in GovTech product work: GIS integration programs, field discovery, lifecycle migrations, API coordination, and AI capability assessment.
+- AI product POV: [Read before you write](https://tylerwilliamwick.com/thinking/read-before-write/), a practical approach to source evidence, explicit uncertainty, and human accountability.
 
 ## Connect
 
